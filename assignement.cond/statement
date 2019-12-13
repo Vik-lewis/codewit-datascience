@@ -1,0 +1,16 @@
+loan_receiver = input("What is your name ? :")
+loan_amount = input("How much do you want? :")
+reults = '1000 cedis'
+payment_date = input("when will you pay back ? :")
+results = '90 days'
+
+if (loan_amount == '1000 cedis'):
+    if (payment_date =='90 days'):
+        print(f' hello {loan_receiver} you qualify for a loan of {loan_amount}')
+        print(f'you are required to pay an interest of 25 percent on {loan_amount}') 
+elif  loan_amount > '1000 cedis':
+    if (payment_date <  '120 days'):
+        print(f' hello {loan_receiver} you qualify for a loan of {loan_amount}')
+        print(f' you are required to pay an interest of 30 percent on {loan_amount}')        
+else:
+     print('You dont qualify for a laon')        
